@@ -16,7 +16,7 @@ public class Main {
        a = scanner.nextInt();
        System.out.println("Enter second number:");
        b = scanner.nextInt();
-       System.out.println("Enter operation:");
+       System.out.println("Enter mathematical operation:");
        operation = scanner.next();
        if ("+".equals(operation)) {
            answer = add(a, b);
